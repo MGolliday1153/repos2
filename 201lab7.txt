@@ -1,0 +1,7 @@
+201Lab7
+
+Microsoft introduced the registry back in Windows 3.1, but it was initially used only for certain types of software. In the Windows 3.1 era, Windows applications frequently stored settings in .INI configuration files that were scattered across the OS. The registry can now be used by all programs, and it helps bring together the settings that would otherwise be scattered in many different locations across the disk.
+
+Editing the registry isn’t dangerous if you know what you’re doing. Just follow the instructions and only change the settings you’re instructed to change.
+
+The Windows Registry is a database where Windows and many programs store their configuration settings. You can edit the registry yourself to enable hidden features and tweak specific options. These tweaks are often called “registry hacks.”

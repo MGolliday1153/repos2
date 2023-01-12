@@ -1,0 +1,90 @@
+Matthew Golliday
+201reading5- Windows Command Line Tools
+12-13-2022
+
+
+
+
+
+The Server Message Block Protocol (SMB Protocol) is a client-server communication protocol used for sharing access to files, printers, serial ports, and data on a network. It can also carry transaction protocols for authenticated inter-process communication.
+What are the SMB Protocol Dialects?
+
+1. There are 13 dialects for SMB Protocol
+		a. SMB 1.0 (1984)
+‍Created by IBM for file sharing in DOS. It introduced opportunistic locking as a client-side caching mechanism designed to reduce network traffic.
+
+Samba (1992)
+‍Samba is an open-source implementation of the SMB protocol and Microsoft Active Directory for Unix systems and Linux distributions that supports file sharing and print services, authentication and authorization, name resolution, and service announcements between Linux/Unix servers and Windows clients.
+
+CIFS (1996)
+‍Microsoft-developed SMB dialect that debuted in Windows 95 and added support for larger file sizes, transport directly over TCP/IP, symbolic links, and hard links.
+
+NQ (1998)
+‍NQ is a family of portable SMB client and server implementations developed by Visuality Systems. NQ is portable to non-Windows platforms such as Linux, iOS, and Android and supports SMB 3.1.1 dialect.
+
+Netsmb (2004)
+‍Netsmb is a family of in-kernel SMB client and server implementations in BSD operating systems.
+
+SMB 2.0 (2006)
+‍Released with Windows Vista and Windows Server 2008, SMB v2 reduced chattiness to improve performance, enhance scalability and resiliency, and added support for WAN acceleration.
+
+Tuxera SMB (2009)
+‍Tuxera is also a proprietary SMB implementation that runs in either kernel or user-space.
+
+Likewise (2009)
+‍Likewise developed a CIFS/SMB implementation that provided a multiprotocol, identity-aware platform for network access to files in OEM storage products built on Linux/Unix based platforms.
+
+SMB 2.1 (2010)
+‍Introduced with Windows Server 2008 R2 and Windows 7. The client oplock leasing model replaced opportunistic locking to enhance caching and improve performance. It also introduced large maximum transmission unit (MTU) support and improved energy efficiency, enabling clients to open files from an SMB server to enter sleep mode.
+
+SMB 3.0 (2012)
+‍Debuted in Windows 8 and Windows Server 2012. It introduced several significant improvements to availability, performance, backup, security, and management.
+
+MoSMB (2012)
+‍MoSMB is a proprietary SMB implementation for Linux and other Unix-like systems, developed by Ryussi Technologies. It supports only SMB 2.x and SMB 3.x.‍
+
+SMB 3.02 (2014)
+‍Introduced in Windows 8.1 and Windows Server 2012 R2 and included performance updates and the ability to disable CIFS/SMB 1.0 support, including the removal of related binaries.
+
+SMB 3.1.1 (2015)
+‍Released with Windows 10 and Windows Server 2016 and added support for advanced encryption, preauthentication integrity to prevent man-in-the-middle attacks and cluster dialect fencing.
+
+What are Ports 139 and 445?
+	1. Port 139 is used by SMB dialects that communicate over NetBIOS. It operates as an application layer network protocol for device communication in Windows operating systems over a network. For example, printers and serials ports communicate via Port 139.
+	2. Port 445 is used by newer versions of SMB (after Windows 2000) on top of a TCP stack, allowing SMB to communicate over the Internet. This also means you can use IP addresses in order to use SMB like file sharing.
+
+Are Open Ports Dangerous?
+
+While port 139 and 445 aren't inherently dangerous, there are known issues with exposing these ports to the Internet. You can check if a port is open by using the netstat command.
+
+There is a common misconception that an open port is dangerous. This is largely driven by a lack of understanding of how open ports work, why they are open, and which ones shouldn't be open.
+
+How to Keep Ports 139 and 445 Secure?
+
+	1.Avoid Exposing SMB Ports
+‍Ports 135-139 and 445 are not safe to publicly expose and have not been for a decade.
+
+Patch Everything
+‍Keep your systems up-to-date to avoid exploits of known vulnerabilities and cyberattacks such as NetBIOS name service (NBNS) spoofing and Main-in-the-Middle (MITM) attacks.
+
+No Single Point of Failure
+‍Whether it's ransomware, malware, hardware failure, database error, or something else. If your data is important, then it should be backed up, at least one other secure location. ‍
+
+Use a Firewall or Endpoint Protection
+‍Most solutions will include a blacklist of known attacker IP addresses and their most used ports during attacks.
+
+Use a Virtual Private Network (VPN)
+‍VPNs encypt and protect network traffic.
+
+Implement Virtual Local Area Networks (VLANs)
+‍VLANs can be used to isolate internal network traffic
+
+Use MAC Address Filtering
+‍This can prevent unknown systems from accessing your network.
+
+UpGuard Can Secure Your Open Ports
+UpGuard can protect your business from data breaches, identify all of your data leaks, and help you continuously monitor the security posture of all your vendors.
+
+UpGuard also supports compliance across a myriad of security frameworks, including the new requirements set by Biden's Cybersecurity Executive Order.
+
+Get a preliminary evaluation of your organization’s data breach risk. Click here to request your free instant security score now.

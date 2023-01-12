@@ -1,0 +1,11 @@
+Using CompTIA A+ 
+
+Troubleshooting a problem
+1. Identify the problem
+2. Establish a theory
+3. Test the theory
+4. Evaluate (does it work yes or no)
+		a. No- Establish a new theory and test new theory
+		b. Yes- Establish a plan of action, implement a plan, verify full system functionality,
+			  document findings, IT WORKS!
+With these steps we can figure out how to solve any troubleshooting issues.

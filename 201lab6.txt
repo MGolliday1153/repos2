@@ -1,0 +1,18 @@
+Matthew Golliday
+12-18-2022
+Reading #6
+
+
+
+
+The tool will act as a dashboard for all of your security features, including third-party security to give a clearer view of any risks your PC may face. It’s been specially designed to simplify and unify all the various security settings of Windows in the same place.
+
+There are 5 sections that give you security and protection:
+
+	1. Virus and threat protection
+	2. Drive performance and health
+	3. Firewall and network protection
+      4. App and browser control
+  	5. Family options
+
+Windows Defender Security Center itself does not add any new features to Windows Defender but simply collects many of the pre-existing Windows security and privacy settings and makes them easily accessible to you. When all is good it will display the green check mark on the white shield icon. If something requires your attention, it will display a red cross sign.

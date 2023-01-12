@@ -1,0 +1,22 @@
+Unfortunately, SSD failures are hard to detect. Unlike HDDs, SSDs do not emit audible signals like whirring, clicking, or humming when they’re approaching a complete shutdown. SSDs can operate in silence until they simply stop functioning.
+
+Here are some of the most common indicators that your SSD may be approaching its read/write cycle limit or is experiencing physical issues:
+
+Bad blocks. All storage forms are vulnerable to flawed memory. In an SSD, this takes the form of “bad blocks”—storage segments that, through memory corruption or physical damage, impede data storage and retrieval functions.
+An SSD suffering from bad blocks may exhibit a few key symptoms. Saving, reading, and moving files may result in failure; active applications may operate slowly or frequently crash; the user may receive prompts to repair the file system; and general performance may steadily decrease, especially when handling large files.
+
+If you observe any of the above symptoms in an SSD and suspect a storage drive may have bad blocks, the best course of action is to run software that searches for physical defects. If the software discovers physical damage, you’ll want to back up essential files and replace your SSD.
+
+File system repair. If a computer or file system requires repair but physical defect software shows no damage, this could indicate an issue with the connector port. Before taking any action, back up integral files. Then you can proceed to repair the system—Mac OS users can use Disk Utility, Linux users can run the fsck utility, and users running a different operating system (OS) can investigate other freeware and premium software options.
+Crashing. If a computer crashes while booting up but seems to work normally after several reboots, the SSD is probably failing. In this case, you can try a couple of things: run software to assess the performance and health of your SSD, or reinstall your OS after you’ve cleared data on the partition set. Even if effectively formatting the drive troubleshoots the issue in the short term, you’ll want to be totally certain the SSD won’t die anytime soon.
+Read-only mode. While somewhat less common, it is possible for SSDs to cease functioning except in read-only mode. In the event that an SSD will not operate except to perform read-only functions, the drive is most likely corrupted. You’ll want to save important data by backing up before seeking a solution.
+
+How you approach fixing an SSD that is failing to perform properly depends on the source of its issues. If there is a physical problem like hardware damage or degraded flash cells, the SSD may need to be replaced. However, if the dysfunction derives from a logical error—bad blocks, software malfunctions, malware, outdated firmware, etc.—a handful of techniques may achieve SSD recovery.
+
+Some recovery options include:
+
+Formatting the drive and redownloading the operating system.
+Power cycling the SSD. If the SSD drive becomes corrupted through power failure, this method may be the solution. First, unplug the SATA data cable, but leave the power cable in. Leave the power on for half an hour, then turn it off for 30 seconds. Turn the power back on again for another half hour. Finally, turn it off for another 30 seconds. Turn the power back on and reconnect the data cable. If power cycling has been effective, the SSD will be back up at this point.
+Idling in the boot menu. This method is similar to power cycling, except that while the power is on during the half-hour intervals, the computer should be left to idle in the boot menu. On a PC, boot into BIOS and sit at the BIOS screen. On a Mac, get to the boot menu by turning on the computer while holding down the ALT key.
+Updating SSD firmware. It’s possible that the storage drive’s firmware, which is integral to hard drive operations, has been corrupted. When firmware is bad, it can affect the drive’s ability to access, read, and write data. Run a firmware update tool to check whether the SSD has the latest version. If it doesn’t, install it and wait to see if functionality (and data access) is restored. Unfortunately, if firmware becomes too damaged, even professionals cannot reverse its effects, and data may be lost forever.
+Updating drivers. In Windows, simply check the Device Manager, go to Disk Drives, and right-click the SSD to update the driver. After rebooting, you may be able to see the revived SSD.

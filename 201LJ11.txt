@@ -1,0 +1,3 @@
+Darik's Boot And Nuke (DBAN) is an entirely free data destruction program used to completely erase all the files on a hard drive.
+This includes everything—every installed application, all your personal files, and even the operating system.
+DBAN has to run while the operating system isn't in use so you'll need to burn the program to a disc (CD, DVD, USB) and run it from there.
